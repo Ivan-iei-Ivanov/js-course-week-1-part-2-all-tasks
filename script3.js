@@ -2,4 +2,10 @@ const serialNumber = prompt("Моля, въведете серийния ном�
 const digitsCollection = serialNumber.length;
 var citizenType = "";
 
-const isCitizenVIP = (serialNumber % 2) == 0; 
+const isCitizenVIP = (serialNumber % 2) == 0;
+if (isCitizenVIP = (serialNumber % 2) == 0){
+    citizenType = "VIP"
+} 
+else{
+    citizenType = "няма специални правомощия"
+}

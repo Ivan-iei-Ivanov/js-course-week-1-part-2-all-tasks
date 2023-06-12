@@ -19,5 +19,12 @@ else {
 }
 if (citizenType = VIP && isCitizenTaxEvading <= 3){
     citizenType = "SUPER VIP"
+    
+} else if (isPastryAskedFor && citizenType === "SUPER VIP"){
+    console.log("Не може")
 }
-isPastryAskedFor = 
+else {
+    console.log("Ами, то и без това няма")
+}
+        
+    
