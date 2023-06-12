@@ -2,6 +2,14 @@ const serialNumber      = prompt("Моля, въведете серийния н
 const digitsCollection  = serialNumber.length;
 var citizenType         = "";
 
+const isCitizenVIP = (serialNumber % 2) == 0;
+if (isCitizenVIP = (serialNumber % 2) == 0){
+    citizenType = "VIP"
+} 
+else{
+    citizenType = "няма специални правомощия"
+}
+
 const getNextToLastDigit    = parseInt((serialNumber % 100) / 10); 
 if (isCitizenTaxEvading = getNextToLastDigit > 3){
     console.log("Браво моето момче");
@@ -9,3 +17,7 @@ if (isCitizenTaxEvading = getNextToLastDigit > 3){
 else {
     console.log("Будала");
 }
+if (citizenType = VIP && isCitizenTaxEvading <= 3){
+    citizenType = "SUPER VIP"
+}
+isPastryAskedFor = 
